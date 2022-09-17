@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatsStyle } from 'components/Styled';
+import { StatsStyle } from '../ProfileStyle';
 
 export const Stats = ({ stats }) => {
   const { followers, views, likes } = stats;

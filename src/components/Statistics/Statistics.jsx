@@ -1,6 +1,6 @@
 import { StatList } from './StatList';
 import PropTypes from 'prop-types';
-import { StatisticsStyle } from 'components/Styled';
+import { StatisticsStyle } from './StatistictsStyle';
 
 export const Statistics = props => {
   //   console.log(props);

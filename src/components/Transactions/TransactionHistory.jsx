@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { TransactionItem } from './TransactionItem';
-import { TransactionStyle } from 'components/Styled';
+import { TransactionStyle } from './TransactionStyle';
 
 export const TransactionHistory = ({ items }) => {
   //   console.log(items);

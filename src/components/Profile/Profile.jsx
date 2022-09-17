@@ -1,6 +1,6 @@
 import { Stats } from './Stats/Stats';
-import { ProfileStyle } from 'components/Styled';
 import PropTypes from 'prop-types';
+import { ProfileStyle } from './ProfileStyle';
 
 export const Profile = ({ user }) => {
   const { username, tag, location, avatar, stats } = user;

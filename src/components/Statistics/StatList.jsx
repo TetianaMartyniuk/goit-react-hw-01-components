@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatListStyle } from 'components/Styled';
+import { StatListStyle } from './StatistictsStyle';
 
 export const StatList = props => {
   // console.log(props);
@@ -10,10 +10,6 @@ export const StatList = props => {
       <span className="percentage">{percentage}&#37;</span>
     </StatListStyle>
   );
-};
-
-export const randomColor = () => {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 };
 
 // Пише, що props undefined АЛЕ він нормально прилітає об'єктом!!!
