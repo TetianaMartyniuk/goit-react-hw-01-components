@@ -19,6 +19,14 @@ export const FriendItemStyle = styled.li`
   align-items: center;
   background-color: #fff;
   border-radius: 10px;
+  box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.49);
+  cursor: pointer;
+  transition: transform 200ms;
+
+  &:hover {
+    box-shadow: 6px 6px 15px 0px rgba(66, 58, 58, 0.49);
+    transform: scale(1.05);
+  }
 
   .status {
     display: block;
