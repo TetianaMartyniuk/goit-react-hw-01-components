@@ -34,4 +34,8 @@ export const TransactionStyle = styled.table`
   td {
     text-align: center;
   }
+
+  td.type-of-transaction {
+    text-transform: capitalize;
+  }
 `;
